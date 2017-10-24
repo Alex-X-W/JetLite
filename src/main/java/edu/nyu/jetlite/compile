@@ -1,0 +1,2 @@
+javac -cp lib/fanseparser-0.2.2.jar:lib/maxent-3.0.0.jar:lib/trove.jar:lib/jet-all.jar -d . BIO.java Coref.java DatasetMaker.java Datum.java DepParser.java Enamex.java Entity.java EntityTagger.java EventMention.java EventTagger.java Hub.java MaxEnt.java Mention.java  NEtagger.java  POStagger.java RelationMention.java RelationTagger.java Sentence.java SentenceFromStream.java SentenceSplitter.java SentenceStream.java Token.java Tokenizer.java tipster/Annotation.java tipster/Annotator.java tipster/Document.java tipster/Span.java
+
