@@ -19,7 +19,7 @@ import org.tensorflow.TensorFlow;
 
 public class tf_intergration {
     public static void main(String[] args) {
-        String modelDir = "/Users/xuanwang/Documents/17Fall/adv_nlp/tf_integration/";
+        String modelDir = "./src/main/resources/";
 
 
         byte[] graphDef = readAllBytesOrExit(Paths.get(modelDir, "frozen_trained_model.pb"));
